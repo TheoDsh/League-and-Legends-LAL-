@@ -1,0 +1,48 @@
+[gd_scene format=3 uid="uid://bp142rnpcxohm"]
+
+[ext_resource type="Texture2D" uid="uid://ck0shag6c8c3o" path="res://FONT & sprite/animation_stay.png" id="1_mc554"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_anbqj"]
+atlas = ExtResource("1_mc554")
+region = Rect2(0, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_w7h7i"]
+atlas = ExtResource("1_mc554")
+region = Rect2(64, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_rchif"]
+atlas = ExtResource("1_mc554")
+region = Rect2(128, 0, 64, 64)
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_pljn6"]
+atlas = ExtResource("1_mc554")
+region = Rect2(192, 0, 64, 64)
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_m434n"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_anbqj")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_w7h7i")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_rchif")
+}, {
+"duration": 1.0,
+"texture": SubResource("AtlasTexture_pljn6")
+}],
+"loop": true,
+"name": &"default",
+"speed": 5.0
+}]
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=428599169]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1446718471]
+position = Vector2(2.000061, -1)
+scale = Vector2(12.859375, 12.046876)
+sprite_frames = SubResource("SpriteFrames_m434n")
+autoplay = "default"
+frame_progress = 0.772033
