@@ -1,0 +1,73 @@
+[gd_scene format=3 uid="uid://bmt212j14dwji"]
+
+[ext_resource type="Texture2D" uid="uid://bdsgylj703s7n" path="res://FONT & sprite/ChatGPT Image May 19, 2026, 03_27_22 PM.png" id="2_8hxod"]
+[ext_resource type="Script" uid="uid://b15ophsvu4xhh" path="res://script/menu.gd" id="2_menu"]
+[ext_resource type="Texture2D" uid="uid://dw8rqkq7sjx6i" path="res://FONT & sprite/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-009.png" id="3_bo06a"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_15se8"]
+texture = ExtResource("3_bo06a")
+texture_margin_left = 16.0
+texture_margin_top = 16.0
+texture_margin_right = 16.0
+texture_margin_bottom = 16.0
+
+[node name="menu" type="Control" unique_id=2051682556]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_menu")
+
+[node name="fond_menu" type="TextureRect" parent="." unique_id=581239908]
+layout_mode = 0
+offset_left = -13.0
+offset_top = -3.0
+offset_right = 1099.0
+offset_bottom = 2092.0
+texture = ExtResource("2_8hxod")
+
+[node name="account_label" type="Label" parent="." unique_id=1684901181]
+layout_mode = 0
+offset_left = 40.0
+offset_top = 40.0
+offset_right = 1040.0
+offset_bottom = 120.0
+theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.13333334, 1)
+theme_override_font_sizes/font_size = 38
+text = "NOT CONNECTED"
+horizontal_alignment = 1
+
+[node name="login" type="Button" parent="." unique_id=31588101]
+layout_mode = 0
+offset_left = 256.0
+offset_top = 721.0
+offset_right = 842.0
+offset_bottom = 811.0
+theme_override_colors/font_color = Color(0, 0.48219526, 0.8355861, 1)
+theme_override_font_sizes/font_size = 42
+theme_override_styles/normal = SubResource("StyleBoxTexture_15se8")
+text = "PLAY"
+
+[node name="login2" type="Button" parent="." unique_id=1286436726]
+layout_mode = 0
+offset_left = 256.0
+offset_top = 250.0
+offset_right = 842.0
+offset_bottom = 340.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 42
+theme_override_styles/normal = SubResource("StyleBoxTexture_15se8")
+text = "TEAM"
+
+[node name="login3" type="Button" parent="." unique_id=1650638999]
+layout_mode = 0
+offset_left = 257.0
+offset_top = 464.0
+offset_right = 843.0
+offset_bottom = 554.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 42
+theme_override_styles/normal = SubResource("StyleBoxTexture_15se8")
+text = "RECRUIT"

@@ -1,8 +1,30 @@
 [gd_scene format=3 uid="uid://bx6r3ei1jncff"]
 
+[ext_resource type="Script" uid="uid://3fd2rvjlxcah" path="res://script/main.gd" id="1_brvut"]
 [ext_resource type="Texture2D" uid="uid://ci2escvd6pt07" path="res://FONT & sprite/black_screen.jpeg" id="2_v0l8b"]
 [ext_resource type="FontFile" uid="uid://bonma1nqdq4fy" path="res://FONT & sprite/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/poco/Poco.ttf" id="2_wp4xf"]
 [ext_resource type="PackedScene" uid="uid://bp142rnpcxohm" path="res://scene/cho gath.tscn" id="3_wp4xf"]
+[ext_resource type="Texture2D" uid="uid://dw8rqkq7sjx6i" path="res://FONT & sprite/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-009.png" id="5_0ha60"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_4j5ol"]
+texture_margin_left = 16.0
+texture_margin_top = 16.0
+texture_margin_right = 16.0
+texture_margin_bottom = 16.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_p1hux"]
+texture = ExtResource("5_0ha60")
+texture_margin_left = 16.0
+texture_margin_top = 16.0
+texture_margin_right = 16.0
+texture_margin_bottom = 16.0
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_0ha60"]
+texture = ExtResource("5_0ha60")
+texture_margin_left = 16.0
+texture_margin_top = 16.0
+texture_margin_right = 16.0
+texture_margin_bottom = 16.0
 
 [node name="Main" type="Control" unique_id=1328662971]
 layout_mode = 3
@@ -15,25 +37,82 @@ offset_right = 6.0
 offset_bottom = 3.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("1_brvut")
 
-[node name="TextureRect" type="TextureRect" parent="." unique_id=1272121786]
+[node name="fond" type="TextureRect" parent="." unique_id=1272121786]
 layout_mode = 0
-offset_left = -706.0
-offset_top = -245.0
-offset_right = 1864.0
-offset_bottom = 2281.0
+offset_left = -559.0
+offset_top = -302.0
+offset_right = 2011.0
+offset_bottom = 2224.0
 texture = ExtResource("2_v0l8b")
 
-[node name="Label" type="Label" parent="." unique_id=910424724]
+[node name="main_title" type="Label" parent="." unique_id=910424724]
 layout_mode = 0
-offset_left = 147.0
-offset_top = 381.0
-offset_right = 939.0
-offset_bottom = 489.0
+offset_left = 141.0
+offset_top = 243.0
+offset_right = 933.0
+offset_bottom = 351.0
 theme_override_fonts/font = ExtResource("2_wp4xf")
 theme_override_font_sizes/font_size = 90
 text = "League And Legend"
 horizontal_alignment = 1
 
-[node name="CharacterBody2D" parent="." unique_id=428599169 instance=ExtResource("3_wp4xf")]
-position = Vector2(540, 918)
+[node name="cho_gath" parent="." unique_id=428599169 instance=ExtResource("3_wp4xf")]
+position = Vector2(525, 780)
+
+[node name="emailinput" type="LineEdit" parent="." unique_id=612469352]
+layout_mode = 0
+offset_left = 259.0
+offset_top = 1348.0
+offset_right = 823.0
+offset_bottom = 1431.0
+theme_override_font_sizes/font_size = 48
+placeholder_text = "EMAIL"
+alignment = 1
+
+[node name="passwordinput" type="LineEdit" parent="." unique_id=922205317]
+layout_mode = 0
+offset_left = 255.0
+offset_top = 1477.0
+offset_right = 834.0
+offset_bottom = 1576.0
+theme_override_font_sizes/font_size = 48
+theme_override_styles/normal = SubResource("StyleBoxTexture_4j5ol")
+placeholder_text = "PASSWORD"
+alignment = 1
+secret = true
+
+[node name="login" type="Button" parent="." unique_id=658404496]
+layout_mode = 0
+offset_left = 250.0
+offset_top = 1598.0
+offset_right = 836.0
+offset_bottom = 1678.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 42
+theme_override_styles/normal = SubResource("StyleBoxTexture_p1hux")
+text = "LOGIN"
+
+[node name="register" type="Button" parent="." unique_id=1620264691]
+layout_mode = 0
+offset_left = 251.0
+offset_top = 1733.0
+offset_right = 837.0
+offset_bottom = 1823.0
+theme_override_colors/font_color = Color(0.8745098, 0.1254902, 0.13333334, 1)
+theme_override_font_sizes/font_size = 42
+theme_override_styles/normal = SubResource("StyleBoxTexture_0ha60")
+text = "REGISTER"
+
+[node name="AuthRequest" type="HTTPRequest" parent="." unique_id=1783251218]
+
+[node name="error_label" type="Label" parent="." unique_id=1453347278]
+layout_mode = 0
+offset_left = 160.0
+offset_top = 1227.0
+offset_right = 947.0
+offset_bottom = 1322.0
+theme_override_colors/font_color = Color(1, 0.043137256, 0.05882353, 1)
+theme_override_font_sizes/font_size = 60
+horizontal_alignment = 1
