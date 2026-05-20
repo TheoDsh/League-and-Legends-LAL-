@@ -1,4 +1,229 @@
 {
+	"ai_crimson_rift_bot": {
+		"club_id": "club_ai_crimson_rift",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_07.png",
+		"pseudo": "CrimsonBot46",
+		"role": "bot",
+		"stats": {
+			"laning": "A",
+			"mechanics": "A",
+			"mental": "C",
+			"teamplay": "C",
+			"vision": "B"
+		}
+	},
+	"ai_crimson_rift_jgl": {
+		"club_id": "club_ai_crimson_rift",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_06.png",
+		"pseudo": "CrimsonJungle24",
+		"role": "jgl",
+		"stats": {
+			"laning": "C",
+			"mechanics": "B",
+			"mental": "A",
+			"teamplay": "B",
+			"vision": "A"
+		}
+	},
+	"ai_crimson_rift_mid": {
+		"club_id": "club_ai_crimson_rift",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_07.png",
+		"pseudo": "CrimsonMid35",
+		"role": "mid",
+		"stats": {
+			"laning": "A",
+			"mechanics": "B",
+			"mental": "B",
+			"teamplay": "B",
+			"vision": "C"
+		}
+	},
+	"ai_crimson_rift_sup": {
+		"club_id": "club_ai_crimson_rift",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_08.png",
+		"pseudo": "CrimsonSupport57",
+		"role": "sup",
+		"stats": {
+			"laning": "C",
+			"mechanics": "C",
+			"mental": "A",
+			"teamplay": "A",
+			"vision": "A"
+		}
+	},
+	"ai_crimson_rift_top": {
+		"club_id": "club_ai_crimson_rift",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_06.png",
+		"pseudo": "CrimsonTop13",
+		"role": "top",
+		"stats": {
+			"laning": "B",
+			"mechanics": "A",
+			"mental": "B",
+			"teamplay": "C",
+			"vision": "B"
+		}
+	},
+	"ai_neon_knights_bot": {
+		"club_id": "club_ai_neon_knights",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_05.png",
+		"pseudo": "NeonBot45",
+		"role": "bot",
+		"stats": {
+			"laning": "B",
+			"mechanics": "A",
+			"mental": "C",
+			"teamplay": "B",
+			"vision": "B"
+		}
+	},
+	"ai_neon_knights_jgl": {
+		"club_id": "club_ai_neon_knights",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_04.png",
+		"pseudo": "NeonJungle23",
+		"role": "jgl",
+		"stats": {
+			"laning": "C",
+			"mechanics": "B",
+			"mental": "B",
+			"teamplay": "A",
+			"vision": "A"
+		}
+	},
+	"ai_neon_knights_mid": {
+		"club_id": "club_ai_neon_knights",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_04.png",
+		"pseudo": "NeonMid34",
+		"role": "mid",
+		"stats": {
+			"laning": "B",
+			"mechanics": "A",
+			"mental": "B",
+			"teamplay": "B",
+			"vision": "C"
+		}
+	},
+	"ai_neon_knights_sup": {
+		"club_id": "club_ai_neon_knights",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_05.png",
+		"pseudo": "NeonSupport56",
+		"role": "sup",
+		"stats": {
+			"laning": "C",
+			"mechanics": "B",
+			"mental": "A",
+			"teamplay": "A",
+			"vision": "B"
+		}
+	},
+	"ai_neon_knights_top": {
+		"club_id": "club_ai_neon_knights",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_03.png",
+		"pseudo": "NeonTop12",
+		"role": "top",
+		"stats": {
+			"laning": "A",
+			"mechanics": "C",
+			"mental": "B",
+			"teamplay": "B",
+			"vision": "C"
+		}
+	},
+	"ai_shadow_wolves_bot": {
+		"club_id": "club_ai_shadow_wolves",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_02.png",
+		"pseudo": "WolfBot44",
+		"role": "bot",
+		"stats": {
+			"laning": "A",
+			"mechanics": "B",
+			"mental": "B",
+			"teamplay": "C",
+			"vision": "C"
+		}
+	},
+	"ai_shadow_wolves_jgl": {
+		"club_id": "club_ai_shadow_wolves",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_02.png",
+		"pseudo": "WolfJungle22",
+		"role": "jgl",
+		"stats": {
+			"laning": "C",
+			"mechanics": "A",
+			"mental": "B",
+			"teamplay": "B",
+			"vision": "A"
+		}
+	},
+	"ai_shadow_wolves_mid": {
+		"club_id": "club_ai_shadow_wolves",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_02.png",
+		"pseudo": "WolfMid33",
+		"role": "mid",
+		"stats": {
+			"laning": "A",
+			"mechanics": "A",
+			"mental": "C",
+			"teamplay": "B",
+			"vision": "B"
+		}
+	},
+	"ai_shadow_wolves_sup": {
+		"club_id": "club_ai_shadow_wolves",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_04.png",
+		"pseudo": "WolfSupport55",
+		"role": "sup",
+		"stats": {
+			"laning": "C",
+			"mechanics": "C",
+			"mental": "A",
+			"teamplay": "A",
+			"vision": "A"
+		}
+	},
+	"ai_shadow_wolves_top": {
+		"club_id": "club_ai_shadow_wolves",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_01.png",
+		"pseudo": "WolfTop11",
+		"role": "top",
+		"stats": {
+			"laning": "B",
+			"mechanics": "B",
+			"mental": "A",
+			"teamplay": "C",
+			"vision": "C"
+		}
+	},
 	"player_001": {
 		"club_id": "",
 		"gender": "male",
@@ -1497,231 +1722,6 @@
 			"mental": "D",
 			"teamplay": "D",
 			"vision": "D"
-		}
-	},
-	"ai_shadow_wolves_top": {
-		"club_id": "club_ai_shadow_wolves",
-		"gender": "male",
-		"level": 1.0,
-		"portrait": "res://FONT & sprite/personnage/homme_01.png",
-		"pseudo": "WolfTop11",
-		"role": "top",
-		"stats": {
-			"laning": "B",
-			"mechanics": "B",
-			"mental": "A",
-			"teamplay": "C",
-			"vision": "C"
-		}
-	},
-	"ai_shadow_wolves_jgl": {
-		"club_id": "club_ai_shadow_wolves",
-		"gender": "female",
-		"level": 1.0,
-		"portrait": "res://FONT & sprite/personnage/femme_02.png",
-		"pseudo": "WolfJungle22",
-		"role": "jgl",
-		"stats": {
-			"laning": "C",
-			"mechanics": "A",
-			"mental": "B",
-			"teamplay": "B",
-			"vision": "A"
-		}
-	},
-	"ai_shadow_wolves_mid": {
-		"club_id": "club_ai_shadow_wolves",
-		"gender": "male",
-		"level": 1.0,
-		"portrait": "res://FONT & sprite/personnage/homme_02.png",
-		"pseudo": "WolfMid33",
-		"role": "mid",
-		"stats": {
-			"laning": "A",
-			"mechanics": "A",
-			"mental": "C",
-			"teamplay": "B",
-			"vision": "B"
-		}
-	},
-	"ai_shadow_wolves_bot": {
-		"club_id": "club_ai_shadow_wolves",
-		"gender": "female",
-		"level": 1.0,
-		"portrait": "res://FONT & sprite/personnage/femme_02.png",
-		"pseudo": "WolfBot44",
-		"role": "bot",
-		"stats": {
-			"laning": "A",
-			"mechanics": "B",
-			"mental": "B",
-			"teamplay": "C",
-			"vision": "C"
-		}
-	},
-	"ai_shadow_wolves_sup": {
-		"club_id": "club_ai_shadow_wolves",
-		"gender": "male",
-		"level": 1.0,
-		"portrait": "res://FONT & sprite/personnage/homme_04.png",
-		"pseudo": "WolfSupport55",
-		"role": "sup",
-		"stats": {
-			"laning": "C",
-			"mechanics": "C",
-			"mental": "A",
-			"teamplay": "A",
-			"vision": "A"
-		}
-	},
-	"ai_neon_knights_top": {
-		"club_id": "club_ai_neon_knights",
-		"gender": "female",
-		"level": 1.0,
-		"portrait": "res://FONT & sprite/personnage/femme_03.png",
-		"pseudo": "NeonTop12",
-		"role": "top",
-		"stats": {
-			"laning": "A",
-			"mechanics": "C",
-			"mental": "B",
-			"teamplay": "B",
-			"vision": "C"
-		}
-	},
-	"ai_neon_knights_jgl": {
-		"club_id": "club_ai_neon_knights",
-		"gender": "male",
-		"level": 1.0,
-		"portrait": "res://FONT & sprite/personnage/homme_04.png",
-		"pseudo": "NeonJungle23",
-		"role": "jgl",
-		"stats": {
-			"laning": "C",
-			"mechanics": "B",
-			"mental": "B",
-			"teamplay": "A",
-			"vision": "A"
-		}
-	},
-	"ai_neon_knights_mid": {
-		"club_id": "club_ai_neon_knights",
-		"gender": "female",
-		"level": 1.0,
-		"portrait": "res://FONT & sprite/personnage/femme_04.png",
-		"pseudo": "NeonMid34",
-		"role": "mid",
-		"stats": {
-			"laning": "B",
-			"mechanics": "A",
-			"mental": "B",
-			"teamplay": "B",
-			"vision": "C"
-		}
-	},
-	"ai_neon_knights_bot": {
-		"club_id": "club_ai_neon_knights",
-		"gender": "male",
-		"level": 1.0,
-		"portrait": "res://FONT & sprite/personnage/homme_05.png",
-		"pseudo": "NeonBot45",
-		"role": "bot",
-		"stats": {
-			"laning": "B",
-			"mechanics": "A",
-			"mental": "C",
-			"teamplay": "B",
-			"vision": "B"
-		}
-	},
-	"ai_neon_knights_sup": {
-		"club_id": "club_ai_neon_knights",
-		"gender": "female",
-		"level": 1.0,
-		"portrait": "res://FONT & sprite/personnage/femme_05.png",
-		"pseudo": "NeonSupport56",
-		"role": "sup",
-		"stats": {
-			"laning": "C",
-			"mechanics": "B",
-			"mental": "A",
-			"teamplay": "A",
-			"vision": "B"
-		}
-	},
-	"ai_crimson_rift_top": {
-		"club_id": "club_ai_crimson_rift",
-		"gender": "male",
-		"level": 1.0,
-		"portrait": "res://FONT & sprite/personnage/homme_06.png",
-		"pseudo": "CrimsonTop13",
-		"role": "top",
-		"stats": {
-			"laning": "B",
-			"mechanics": "A",
-			"mental": "B",
-			"teamplay": "C",
-			"vision": "B"
-		}
-	},
-	"ai_crimson_rift_jgl": {
-		"club_id": "club_ai_crimson_rift",
-		"gender": "female",
-		"level": 1.0,
-		"portrait": "res://FONT & sprite/personnage/femme_06.png",
-		"pseudo": "CrimsonJungle24",
-		"role": "jgl",
-		"stats": {
-			"laning": "C",
-			"mechanics": "B",
-			"mental": "A",
-			"teamplay": "B",
-			"vision": "A"
-		}
-	},
-	"ai_crimson_rift_mid": {
-		"club_id": "club_ai_crimson_rift",
-		"gender": "male",
-		"level": 1.0,
-		"portrait": "res://FONT & sprite/personnage/homme_07.png",
-		"pseudo": "CrimsonMid35",
-		"role": "mid",
-		"stats": {
-			"laning": "A",
-			"mechanics": "B",
-			"mental": "B",
-			"teamplay": "B",
-			"vision": "C"
-		}
-	},
-	"ai_crimson_rift_bot": {
-		"club_id": "club_ai_crimson_rift",
-		"gender": "female",
-		"level": 1.0,
-		"portrait": "res://FONT & sprite/personnage/femme_07.png",
-		"pseudo": "CrimsonBot46",
-		"role": "bot",
-		"stats": {
-			"laning": "A",
-			"mechanics": "A",
-			"mental": "C",
-			"teamplay": "C",
-			"vision": "B"
-		}
-	},
-	"ai_crimson_rift_sup": {
-		"club_id": "club_ai_crimson_rift",
-		"gender": "male",
-		"level": 1.0,
-		"portrait": "res://FONT & sprite/personnage/homme_08.png",
-		"pseudo": "CrimsonSupport57",
-		"role": "sup",
-		"stats": {
-			"laning": "C",
-			"mechanics": "C",
-			"mental": "A",
-			"teamplay": "A",
-			"vision": "A"
 		}
 	}
 }

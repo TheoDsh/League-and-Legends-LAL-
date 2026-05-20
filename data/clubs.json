@@ -1,9 +1,30 @@
 {
+	"club_ai_crimson_rift": {
+		"money": 1000.0,
+		"name": "Crimson Rift",
+		"owner_email": "",
+		"reputation": 1.0,
+		"type": "ai"
+	},
+	"club_ai_neon_knights": {
+		"money": 1000.0,
+		"name": "Neon Knights",
+		"owner_email": "",
+		"reputation": 1.0,
+		"type": "ai"
+	},
+	"club_ai_shadow_wolves": {
+		"money": 1000.0,
+		"name": "Shadow Wolves",
+		"owner_email": "",
+		"reputation": 1.0,
+		"type": "ai"
+	},
 	"club_lolomdrkik_gmail_com": {
-		"money": 1000,
+		"money": 1000.0,
 		"name": "NIGGER_club",
 		"owner_email": "lolomdrkik@gmail.com",
-		"reputation": 1,
+		"reputation": 1.0,
 		"type": "player"
 	},
 	"club_theodeshons_gmail_com": {
@@ -12,26 +33,5 @@
 		"owner_email": "theodeshons@gmail.com",
 		"reputation": 1.0,
 		"type": "player"
-	},
-	"club_ai_shadow_wolves": {
-		"money": 1000,
-		"name": "Shadow Wolves",
-		"owner_email": "",
-		"reputation": 1,
-		"type": "ai"
-	},
-	"club_ai_neon_knights": {
-		"money": 1000,
-		"name": "Neon Knights",
-		"owner_email": "",
-		"reputation": 1,
-		"type": "ai"
-	},
-	"club_ai_crimson_rift": {
-		"money": 1000,
-		"name": "Crimson Rift",
-		"owner_email": "",
-		"reputation": 1,
-		"type": "ai"
 	}
 }
