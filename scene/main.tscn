@@ -41,10 +41,10 @@ script = ExtResource("1_brvut")
 
 [node name="fond" type="TextureRect" parent="." unique_id=1272121786]
 layout_mode = 0
-offset_left = -559.0
-offset_top = -302.0
-offset_right = 2011.0
-offset_bottom = 2224.0
+offset_left = -598.0
+offset_top = -242.0
+offset_right = 1972.0
+offset_bottom = 2284.0
 texture = ExtResource("2_v0l8b")
 
 [node name="main_title" type="Label" parent="." unique_id=910424724]

@@ -1,0 +1,132 @@
+[gd_scene format=3 uid="uid://b7l3matchrow"]
+
+[node name="MatchPlayerRow" type="Control"]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 370.0
+offset_bottom = 135.0
+
+[node name="panel" type="Panel" parent="."]
+layout_mode = 0
+offset_right = 370.0
+offset_bottom = 135.0
+
+[node name="champion_image" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 8.0
+offset_top = 12.0
+offset_right = 100.0
+offset_bottom = 104.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="pseudo" type="Label" parent="."]
+layout_mode = 0
+offset_left = 108.0
+offset_top = 8.0
+offset_right = 353.0
+offset_bottom = 36.0
+theme_override_font_sizes/font_size = 22
+
+[node name="kda" type="Label" parent="."]
+layout_mode = 0
+offset_left = 108.0
+offset_top = 38.0
+offset_right = 228.0
+offset_bottom = 64.0
+theme_override_font_sizes/font_size = 20
+
+[node name="gold" type="Label" parent="."]
+layout_mode = 0
+offset_left = 228.0
+offset_top = 38.0
+offset_right = 348.0
+offset_bottom = 64.0
+theme_override_font_sizes/font_size = 20
+
+[node name="level" type="Label" parent="."]
+layout_mode = 0
+offset_left = 108.0
+offset_top = 66.0
+offset_right = 200.0
+offset_bottom = 92.0
+theme_override_font_sizes/font_size = 20
+
+[node name="cs" type="Label" parent="."]
+layout_mode = 0
+offset_left = 198.0
+offset_top = 66.0
+offset_right = 276.0
+offset_bottom = 92.0
+theme_override_font_sizes/font_size = 20
+
+[node name="status" type="Label" parent="."]
+layout_mode = 0
+offset_left = 276.0
+offset_top = 66.0
+offset_right = 362.0
+offset_bottom = 92.0
+theme_override_font_sizes/font_size = 20
+
+[node name="item_0" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 108.0
+offset_top = 98.0
+offset_right = 138.0
+offset_bottom = 128.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="item_1" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 142.0
+offset_top = 98.0
+offset_right = 172.0
+offset_bottom = 128.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="item_2" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 176.0
+offset_top = 98.0
+offset_right = 206.0
+offset_bottom = 128.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="item_3" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 210.0
+offset_top = 98.0
+offset_right = 240.0
+offset_bottom = 128.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="item_4" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 244.0
+offset_top = 98.0
+offset_right = 274.0
+offset_bottom = 128.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="item_5" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 278.0
+offset_top = 98.0
+offset_right = 308.0
+offset_bottom = 128.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="item_6" type="TextureRect" parent="."]
+layout_mode = 0
+offset_left = 312.0
+offset_top = 98.0
+offset_right = 342.0
+offset_bottom = 128.0
+expand_mode = 1
+stretch_mode = 5
