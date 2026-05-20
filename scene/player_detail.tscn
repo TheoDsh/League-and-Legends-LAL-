@@ -1,0 +1,58 @@
+[gd_scene format=3 uid="uid://bbaijkhpuid3j"]
+
+[ext_resource type="Texture2D" uid="uid://ci2escvd6pt07" path="res://FONT & sprite/black_screen.jpeg" id="1_bg"]
+[ext_resource type="Script" uid="uid://b6gem5o4y1cou" path="res://script/player_detail.gd" id="2_script"]
+
+[node name="player_detail" type="Control" unique_id=2105189731]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("2_script")
+
+[node name="fond" type="TextureRect" parent="." unique_id=609176981]
+layout_mode = 0
+offset_left = -559.0
+offset_top = -302.0
+offset_right = 2011.0
+offset_bottom = 2224.0
+texture = ExtResource("1_bg")
+
+[node name="portrait" type="TextureRect" parent="." unique_id=968228512]
+layout_mode = 0
+offset_left = 390.0
+offset_top = 210.0
+offset_right = 690.0
+offset_bottom = 510.0
+expand_mode = 1
+stretch_mode = 5
+
+[node name="info_label" type="Label" parent="." unique_id=1107457628]
+layout_mode = 0
+offset_left = 100.0
+offset_top = 560.0
+offset_right = 980.0
+offset_bottom = 700.0
+theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.13333334, 1)
+theme_override_font_sizes/font_size = 48
+horizontal_alignment = 1
+
+[node name="stats_label" type="Label" parent="." unique_id=1317662411]
+layout_mode = 0
+offset_left = 230.0
+offset_top = 760.0
+offset_right = 860.0
+offset_bottom = 1100.0
+theme_override_colors/font_color = Color(1, 1, 1, 1)
+theme_override_font_sizes/font_size = 42
+
+[node name="back_button" type="Button" parent="." unique_id=713605694]
+layout_mode = 0
+offset_left = 300.0
+offset_top = 1260.0
+offset_right = 780.0
+offset_bottom = 1360.0
+theme_override_font_sizes/font_size = 42
+text = "BACK"

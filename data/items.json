@@ -1,0 +1,154 @@
+{
+  "iron_blade": {
+    "name": "Iron Blade",
+    "type": "weapon",
+    "cost": 350,
+    "stats": {
+      "attack_damage": 12
+    },
+    "icon": "res://FONT & sprite/item/iron_blade.png"
+  },
+  "storm_axe": {
+    "name": "Storm Axe",
+    "type": "weapon",
+    "cost": 900,
+    "stats": {
+      "attack_damage": 28,
+      "attack_speed": 8
+    },
+    "icon": "res://FONT & sprite/item/storm_axe.png"
+  },
+  "phantom_bow": {
+    "name": "Phantom Bow",
+    "type": "weapon",
+    "cost": 1100,
+    "stats": {
+      "attack_damage": 18,
+      "attack_speed": 18,
+      "crit_chance": 12
+    },
+    "icon": "res://FONT & sprite/item/phantom_bow.png"
+  },
+  "arcane_tome": {
+    "name": "Arcane Tome",
+    "type": "magic",
+    "cost": 400,
+    "stats": {
+      "ability_power": 18
+    },
+    "icon": "res://FONT & sprite/item/arcane_tome.png"
+  },
+  "void_staff": {
+    "name": "Void Staff",
+    "type": "magic",
+    "cost": 1200,
+    "stats": {
+      "ability_power": 45,
+      "magic_penetration": 12
+    },
+    "icon": "res://FONT & sprite/item/void_staff.png"
+  },
+  "ember_orb": {
+    "name": "Ember Orb",
+    "type": "magic",
+    "cost": 950,
+    "stats": {
+      "ability_power": 32,
+      "mana": 180
+    },
+    "icon": "res://FONT & sprite/item/ember_orb.png"
+  },
+  "guardian_plate": {
+    "name": "Guardian Plate",
+    "type": "defense",
+    "cost": 800,
+    "stats": {
+      "health": 180,
+      "armor": 18
+    },
+    "icon": "res://FONT & sprite/item/guardian_plate.png"
+  },
+  "spirit_cloak": {
+    "name": "Spirit Cloak",
+    "type": "defense",
+    "cost": 800,
+    "stats": {
+      "health": 150,
+      "magic_resist": 20
+    },
+    "icon": "res://FONT & sprite/item/spirit_cloak.png"
+  },
+  "titan_heart": {
+    "name": "Titan Heart",
+    "type": "defense",
+    "cost": 1300,
+    "stats": {
+      "health": 420,
+      "armor": 10,
+      "magic_resist": 10
+    },
+    "icon": "res://FONT & sprite/item/titan_heart.png"
+  },
+  "swift_boots": {
+    "name": "Swift Boots",
+    "type": "boots",
+    "cost": 500,
+    "stats": {
+      "move_speed": 25
+    },
+    "icon": "res://FONT & sprite/item/swift_boots.png"
+  },
+  "berserker_boots": {
+    "name": "Berserker Boots",
+    "type": "boots",
+    "cost": 750,
+    "stats": {
+      "move_speed": 20,
+      "attack_speed": 12
+    },
+    "icon": "res://FONT & sprite/item/berserker_boots.png"
+  },
+  "oracle_charm": {
+    "name": "Oracle Charm",
+    "type": "support",
+    "cost": 700,
+    "stats": {
+      "ability_power": 12,
+      "vision": 20,
+      "mana": 120
+    },
+    "icon": "res://FONT & sprite/item/oracle_charm.png"
+  },
+  "crystal_axe": {
+    "name": "Crystal Axe",
+    "type": "weapon",
+    "cost": 850,
+    "stats": {
+      "attack_damage": 24,
+      "ability_power": 12
+    },
+    "icon": "res://FONT & sprite/item/crystal_axe.png"
+  },
+  "shadow_dagger": {
+    "name": "Shadow Dagger",
+    "type": "assassin",
+    "cost": 1000,
+    "stats": {
+      "attack_damage": 22,
+      "lethality": 12,
+      "move_speed": 8
+    },
+    "icon": "res://FONT & sprite/item/shadow_dagger.png"
+  },
+  "rift_crown": {
+    "name": "Rift Crown",
+    "type": "legendary",
+    "cost": 1800,
+    "stats": {
+      "ability_power": 55,
+      "health": 180,
+      "mental": 15
+    },
+    "icon": "res://FONT & sprite/item/rift_crown.png"
+  }
+}

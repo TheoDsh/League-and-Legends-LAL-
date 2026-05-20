@@ -49,6 +49,70 @@ static func load_players() -> Dictionary:
 static func save_players(players: Dictionary) -> void:
 	_save_json(players, PLAYERS_FILE, PLAYERS_DEBUG_COPY_FILE)
 
+static func sync_ai_debug_data_to_user_storage() -> void:
+	var debug_clubs := _read_json_file(CLUBS_DEBUG_COPY_FILE)
+	var debug_players := _read_json_file(PLAYERS_DEBUG_COPY_FILE)
+	if debug_clubs.is_empty() or debug_players.is_empty():
+		return
+
+	var clubs := load_clubs()
+	var players := load_players()
+	var ai_club_ids := {}
+	var changed := false
+
+	for club_id in debug_clubs:
+		var club = debug_clubs[club_id]
+		if typeof(club) != TYPE_DICTIONARY:
+			continue
+
+		if str(club.get("type", "")) != "ai":
+			continue
+
+		ai_club_ids[club_id] = true
+		if not clubs.has(club_id) or clubs[club_id] != club:
+			clubs[club_id] = club
+			changed = true
+
+	for player_id in debug_players:
+		var player = debug_players[player_id]
+		if typeof(player) != TYPE_DICTIONARY:
+			continue
+
+		var club_id := str(player.get("club_id", ""))
+		if not ai_club_ids.has(club_id):
+			continue
+
+		if not players.has(player_id) or players[player_id] != player:
+			players[player_id] = player
+			changed = true
+
+	if changed:
+		save_clubs(clubs)
+		save_players(players)
+
+static func get_user_club_id(email: String) -> String:
+	var users := load_users()
+	if not users.has(email):
+		return ""
+
+	var user: Dictionary = users[email]
+	return str(user.get("club_id", ""))
+
+static func get_players_for_club(club_id: String) -> Dictionary:
+	var club_players := {}
+	var players := load_players()
+	for player_id in players:
+		var player = players[player_id]
+		if typeof(player) == TYPE_DICTIONARY and str(player.get("club_id", "")) == club_id:
+			club_players[player_id] = player
+	return club_players
+
+static func get_player(player_id: String) -> Dictionary:
+	var players := load_players()
+	if players.has(player_id) and typeof(players[player_id]) == TYPE_DICTIONARY:
+		return players[player_id]
+	return {}
+
 static func create_club_for_user(email: String, club_name: String) -> String:
 	var club_id := make_club_id(email)
 	var users := load_users()

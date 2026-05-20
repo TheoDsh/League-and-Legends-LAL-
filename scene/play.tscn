@@ -1,0 +1,19 @@
+[gd_scene format=3 uid="uid://bcnud4tc6kx1t"]
+
+[ext_resource type="Texture2D" uid="uid://c0f1wwc6q46xu" path="res://FONT & sprite/fond_ecran_play.png" id="1_vw6ye"]
+
+[node name="Control" type="Control" unique_id=2021943345]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="fond" type="TextureRect" parent="." unique_id=2024927741]
+layout_mode = 0
+offset_left = -11.0
+offset_top = -13.0
+offset_right = 1099.0
+offset_bottom = 1961.0
+texture = ExtResource("1_vw6ye")

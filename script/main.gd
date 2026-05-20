@@ -13,6 +13,7 @@ var email_regex := RegEx.new()
 
 func _ready() -> void:
 	randomize()
+	GameData.sync_ai_debug_data_to_user_storage()
 	email_regex.compile("^[^@\\s]+@[^@\\s]+\\.[^@\\s]+$")
 	$login.pressed.connect(_on_login_pressed)
 	$register.pressed.connect(_on_register_pressed)

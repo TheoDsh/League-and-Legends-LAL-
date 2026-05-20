@@ -1,0 +1,402 @@
+{
+  "aegor_the_iron_oath": {
+    "name": "Aegor",
+    "role": "top",
+    "class": "tank",
+    "damage_type": "physical",
+    "base_stats": {
+      "health": 690,
+      "mana": 280,
+      "attack_damage": 62,
+      "ability_power": 0,
+      "armor": 42,
+      "magic_resist": 32,
+      "attack_speed": 0.62,
+      "move_speed": 335
+    }
+  },
+  "kaelia_sunblade": {
+    "name": "Kaelia",
+    "role": "top",
+    "class": "fighter",
+    "damage_type": "physical",
+    "base_stats": {
+      "health": 620,
+      "mana": 310,
+      "attack_damage": 66,
+      "ability_power": 0,
+      "armor": 35,
+      "magic_resist": 30,
+      "attack_speed": 0.68,
+      "move_speed": 345
+    }
+  },
+  "brakk_mireking": {
+    "name": "Brakk",
+    "role": "top",
+    "class": "fighter",
+    "damage_type": "physical",
+    "base_stats": {
+      "health": 665,
+      "mana": 0,
+      "attack_damage": 70,
+      "ability_power": 0,
+      "armor": 39,
+      "magic_resist": 34,
+      "attack_speed": 0.6,
+      "move_speed": 340
+    }
+  },
+  "nyra_stonesong": {
+    "name": "Nyra",
+    "role": "top",
+    "class": "tank",
+    "damage_type": "magic",
+    "base_stats": {
+      "health": 700,
+      "mana": 340,
+      "attack_damage": 55,
+      "ability_power": 0,
+      "armor": 44,
+      "magic_resist": 36,
+      "attack_speed": 0.58,
+      "move_speed": 330
+    }
+  },
+  "vorran_chainbreaker": {
+    "name": "Vorran",
+    "role": "top",
+    "class": "fighter",
+    "damage_type": "physical",
+    "base_stats": {
+      "health": 640,
+      "mana": 290,
+      "attack_damage": 68,
+      "ability_power": 0,
+      "armor": 37,
+      "magic_resist": 31,
+      "attack_speed": 0.66,
+      "move_speed": 345
+    }
+  },
+  "rusk_wildfang": {
+    "name": "Rusk",
+    "role": "jgl",
+    "class": "fighter",
+    "damage_type": "physical",
+    "base_stats": {
+      "health": 650,
+      "mana": 260,
+      "attack_damage": 67,
+      "ability_power": 0,
+      "armor": 38,
+      "magic_resist": 32,
+      "attack_speed": 0.67,
+      "move_speed": 345
+    }
+  },
+  "zelith_voidburrower": {
+    "name": "Zelith",
+    "role": "jgl",
+    "class": "fighter",
+    "damage_type": "physical",
+    "base_stats": {
+      "health": 610,
+      "mana": 300,
+      "attack_damage": 65,
+      "ability_power": 0,
+      "armor": 34,
+      "magic_resist": 30,
+      "attack_speed": 0.69,
+      "move_speed": 350
+    }
+  },
+  "moro_rootcaller": {
+    "name": "Moro",
+    "role": "jgl",
+    "class": "support",
+    "damage_type": "magic",
+    "base_stats": {
+      "health": 675,
+      "mana": 360,
+      "attack_damage": 58,
+      "ability_power": 0,
+      "armor": 40,
+      "magic_resist": 35,
+      "attack_speed": 0.61,
+      "move_speed": 340
+    }
+  },
+  "ivex_sparkjackal": {
+    "name": "Ivex",
+    "role": "jgl",
+    "class": "fighter",
+    "damage_type": "magic",
+    "base_stats": {
+      "health": 625,
+      "mana": 330,
+      "attack_damage": 61,
+      "ability_power": 0,
+      "armor": 36,
+      "magic_resist": 32,
+      "attack_speed": 0.7,
+      "move_speed": 350
+    }
+  },
+  "dromm_ashbeast": {
+    "name": "Dromm",
+    "role": "jgl",
+    "class": "tank",
+    "damage_type": "magic",
+    "base_stats": {
+      "health": 705,
+      "mana": 280,
+      "attack_damage": 60,
+      "ability_power": 0,
+      "armor": 43,
+      "magic_resist": 34,
+      "attack_speed": 0.6,
+      "move_speed": 335
+    }
+  },
+  "seraphine_nocturne": {
+    "name": "Seraphine",
+    "role": "mid",
+    "class": "mage",
+    "damage_type": "magic",
+    "base_stats": {
+      "health": 560,
+      "mana": 420,
+      "attack_damage": 50,
+      "ability_power": 0,
+      "armor": 24,
+      "magic_resist": 30,
+      "attack_speed": 0.62,
+      "move_speed": 330
+    }
+  },
+  "kaivo_riftblade": {
+    "name": "Kaivo",
+    "role": "mid",
+    "class": "fighter",
+    "damage_type": "magic",
+    "base_stats": {
+      "health": 585,
+      "mana": 340,
+      "attack_damage": 54,
+      "ability_power": 0,
+      "armor": 28,
+      "magic_resist": 30,
+      "attack_speed": 0.66,
+      "move_speed": 345
+    }
+  },
+  "elora_starweaver": {
+    "name": "Elora",
+    "role": "mid",
+    "class": "mage",
+    "damage_type": "magic",
+    "base_stats": {
+      "health": 545,
+      "mana": 460,
+      "attack_damage": 48,
+      "ability_power": 0,
+      "armor": 23,
+      "magic_resist": 31,
+      "attack_speed": 0.6,
+      "move_speed": 325
+    }
+  },
+  "jinro_embermask": {
+    "name": "Jinro",
+    "role": "mid",
+    "class": "mage",
+    "damage_type": "magic",
+    "base_stats": {
+      "health": 610,
+      "mana": 380,
+      "attack_damage": 52,
+      "ability_power": 0,
+      "armor": 29,
+      "magic_resist": 32,
+      "attack_speed": 0.63,
+      "move_speed": 335
+    }
+  },
+  "lyss_moonneedle": {
+    "name": "Lyss",
+    "role": "mid",
+    "class": "mage",
+    "damage_type": "magic",
+    "base_stats": {
+      "health": 540,
+      "mana": 440,
+      "attack_damage": 47,
+      "ability_power": 0,
+      "armor": 22,
+      "magic_resist": 30,
+      "attack_speed": 0.59,
+      "move_speed": 325
+    }
+  },
+  "ceryn_glassarrow": {
+    "name": "Ceryn",
+    "role": "bot",
+    "class": "marksman",
+    "damage_type": "physical",
+    "base_stats": {
+      "health": 575,
+      "mana": 320,
+      "attack_damage": 60,
+      "ability_power": 0,
+      "armor": 27,
+      "magic_resist": 30,
+      "attack_speed": 0.66,
+      "move_speed": 330
+    }
+  },
+  "tavo_rapidflare": {
+    "name": "Tavo",
+    "role": "bot",
+    "class": "marksman",
+    "damage_type": "physical",
+    "base_stats": {
+      "health": 560,
+      "mana": 300,
+      "attack_damage": 58,
+      "ability_power": 0,
+      "armor": 26,
+      "magic_resist": 30,
+      "attack_speed": 0.7,
+      "move_speed": 335
+    }
+  },
+  "nalia_tidegunner": {
+    "name": "Nalia",
+    "role": "bot",
+    "class": "marksman",
+    "damage_type": "mixed",
+    "base_stats": {
+      "health": 570,
+      "mana": 360,
+      "attack_damage": 56,
+      "ability_power": 0,
+      "armor": 25,
+      "magic_resist": 31,
+      "attack_speed": 0.64,
+      "move_speed": 330
+    }
+  },
+  "ozren_blackpowder": {
+    "name": "Ozren",
+    "role": "bot",
+    "class": "marksman",
+    "damage_type": "physical",
+    "base_stats": {
+      "health": 585,
+      "mana": 290,
+      "attack_damage": 63,
+      "ability_power": 0,
+      "armor": 28,
+      "magic_resist": 30,
+      "attack_speed": 0.62,
+      "move_speed": 325
+    }
+  },
+  "mira_skyrail": {
+    "name": "Mira",
+    "role": "bot",
+    "class": "marksman",
+    "damage_type": "physical",
+    "base_stats": {
+      "health": 545,
+      "mana": 330,
+      "attack_damage": 57,
+      "ability_power": 0,
+      "armor": 24,
+      "magic_resist": 30,
+      "attack_speed": 0.72,
+      "move_speed": 335
+    }
+  },
+  "olune_dreammender": {
+    "name": "Olune",
+    "role": "sup",
+    "class": "support",
+    "damage_type": "magic",
+    "base_stats": {
+      "health": 555,
+      "mana": 430,
+      "attack_damage": 46,
+      "ability_power": 0,
+      "armor": 24,
+      "magic_resist": 32,
+      "attack_speed": 0.58,
+      "move_speed": 325
+    }
+  },
+  "gronn_hookmaster": {
+    "name": "Gronn",
+    "role": "sup",
+    "class": "support",
+    "damage_type": "physical",
+    "base_stats": {
+      "health": 670,
+      "mana": 300,
+      "attack_damage": 58,
+      "ability_power": 0,
+      "armor": 40,
+      "magic_resist": 34,
+      "attack_speed": 0.6,
+      "move_speed": 335
+    }
+  },
+  "syra_lightbloom": {
+    "name": "Syra",
+    "role": "sup",
+    "class": "support",
+    "damage_type": "magic",
+    "base_stats": {
+      "health": 540,
+      "mana": 420,
+      "attack_damage": 48,
+      "ability_power": 0,
+      "armor": 23,
+      "magic_resist": 31,
+      "attack_speed": 0.6,
+      "move_speed": 330
+    }
+  },
+  "tarok_gatewarden": {
+    "name": "Tarok",
+    "role": "sup",
+    "class": "support",
+    "damage_type": "magic",
+    "base_stats": {
+      "health": 700,
+      "mana": 340,
+      "attack_damage": 55,
+      "ability_power": 0,
+      "armor": 43,
+      "magic_resist": 36,
+      "attack_speed": 0.57,
+      "move_speed": 325
+    }
+  },
+  "vespa_songthorn": {
+    "name": "Vespa",
+    "role": "sup",
+    "class": "support",
+    "damage_type": "magic",
+    "base_stats": {
+      "health": 535,
+      "mana": 455,
+      "attack_damage": 45,
+      "ability_power": 0,
+      "armor": 22,
+      "magic_resist": 32,
+      "attack_speed": 0.59,
+      "move_speed": 330
+    }
+  }
+}

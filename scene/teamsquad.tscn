@@ -1,7 +1,8 @@
-[gd_scene format=3 uid="uid://du1a1nkvvpacy"]
+[gd_scene format=3 uid="uid://gjhlnnhjbmrg"]
 
-[ext_resource type="Texture2D" uid="uid://bdsgylj703s7n" path="res://FONT & sprite/ChatGPT Image May 19, 2026, 03_27_22 PM.png" id="1_ue2ha"]
-[ext_resource type="FontFile" uid="uid://bonma1nqdq4fy" path="res://FONT & sprite/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/poco/Poco.ttf" id="2_foo2k"]
+[ext_resource type="Texture2D" uid="uid://bdsgylj703s7n" path="res://FONT & sprite/ChatGPT Image May 19, 2026, 03_27_22 PM.png" id="1_m3lkk"]
+[ext_resource type="FontFile" uid="uid://bonma1nqdq4fy" path="res://FONT & sprite/Godot-Fontpack-d244bf6170b399a6d4d26a0d906058ddf2dafdf1/fonts/poco/Poco.ttf" id="2_sv3ma"]
+[ext_resource type="Script" uid="uid://dcgdrrv0e6cnc" path="res://script/teamsquad.gd" id="3_team"]
 
 [node name="Control" type="Control" unique_id=867117332]
 layout_mode = 3
@@ -10,6 +11,7 @@ anchor_right = 1.0
 anchor_bottom = 1.0
 grow_horizontal = 2
 grow_vertical = 2
+script = ExtResource("3_team")
 
 [node name="fond_menu" type="TextureRect" parent="." unique_id=932388210]
 layout_mode = 0
@@ -17,7 +19,7 @@ offset_left = -13.0
 offset_top = -3.0
 offset_right = 1099.0
 offset_bottom = 2092.0
-texture = ExtResource("1_ue2ha")
+texture = ExtResource("1_m3lkk")
 
 [node name="main_title" type="Label" parent="fond_menu" unique_id=72626407]
 layout_mode = 0
@@ -25,18 +27,16 @@ offset_left = 160.0
 offset_top = 121.0
 offset_right = 952.0
 offset_bottom = 229.0
-theme_override_fonts/font = ExtResource("2_foo2k")
+theme_override_fonts/font = ExtResource("2_sv3ma")
 theme_override_font_sizes/font_size = 90
 text = "TEAM"
 horizontal_alignment = 1
 
-[node name="account_label" type="Label" parent="fond_menu/main_title" unique_id=710063973]
+[node name="back_button" type="Button" parent="fond_menu" unique_id=731552129]
 layout_mode = 0
-offset_left = -104.0
-offset_top = -87.0
-offset_right = 896.0
-offset_bottom = -7.0
-theme_override_colors/font_color = Color(0.8745098, 0.8745098, 0.13333334, 1)
-theme_override_font_sizes/font_size = 38
-text = "NOT CONNECTED"
-horizontal_alignment = 1
+offset_left = 309.0
+offset_top = 1763.0
+offset_right = 789.0
+offset_bottom = 1863.0
+theme_override_font_sizes/font_size = 42
+text = "BACK"
