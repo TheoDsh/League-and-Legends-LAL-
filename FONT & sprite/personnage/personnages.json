@@ -1,0 +1,182 @@
+[
+	{
+		"id": "femme_01",
+		"gender": "female",
+		"image": "res://FONT & sprite/personnage/femme_01.png",
+		"size": [
+			179,
+			229
+		]
+	},
+	{
+		"id": "femme_02",
+		"gender": "female",
+		"image": "res://FONT & sprite/personnage/femme_02.png",
+		"size": [
+			157,
+			213
+		]
+	},
+	{
+		"id": "femme_03",
+		"gender": "female",
+		"image": "res://FONT & sprite/personnage/femme_03.png",
+		"size": [
+			183,
+			235
+		]
+	},
+	{
+		"id": "femme_04",
+		"gender": "female",
+		"image": "res://FONT & sprite/personnage/femme_04.png",
+		"size": [
+			162,
+			235
+		]
+	},
+	{
+		"id": "femme_05",
+		"gender": "female",
+		"image": "res://FONT & sprite/personnage/femme_05.png",
+		"size": [
+			169,
+			209
+		]
+	},
+	{
+		"id": "femme_06",
+		"gender": "female",
+		"image": "res://FONT & sprite/personnage/femme_06.png",
+		"size": [
+			150,
+			202
+		]
+	},
+	{
+		"id": "femme_07",
+		"gender": "female",
+		"image": "res://FONT & sprite/personnage/femme_07.png",
+		"size": [
+			155,
+			197
+		]
+	},
+	{
+		"id": "femme_08",
+		"gender": "female",
+		"image": "res://FONT & sprite/personnage/femme_08.png",
+		"size": [
+			147,
+			199
+		]
+	},
+	{
+		"id": "femme_09",
+		"gender": "female",
+		"image": "res://FONT & sprite/personnage/femme_09.png",
+		"size": [
+			153,
+			197
+		]
+	},
+	{
+		"id": "femme_10",
+		"gender": "female",
+		"image": "res://FONT & sprite/personnage/femme_10.png",
+		"size": [
+			153,
+			196
+		]
+	},
+	{
+		"id": "homme_01",
+		"gender": "male",
+		"image": "res://FONT & sprite/personnage/homme_01.png",
+		"size": [
+			142,
+			203
+		]
+	},
+	{
+		"id": "homme_02",
+		"gender": "male",
+		"image": "res://FONT & sprite/personnage/homme_02.png",
+		"size": [
+			148,
+			198
+		]
+	},
+	{
+		"id": "homme_03",
+		"gender": "male",
+		"image": "res://FONT & sprite/personnage/homme_03.png",
+		"size": [
+			184,
+			215
+		]
+	},
+	{
+		"id": "homme_04",
+		"gender": "male",
+		"image": "res://FONT & sprite/personnage/homme_04.png",
+		"size": [
+			147,
+			203
+		]
+	},
+	{
+		"id": "homme_05",
+		"gender": "male",
+		"image": "res://FONT & sprite/personnage/homme_05.png",
+		"size": [
+			148,
+			198
+		]
+	},
+	{
+		"id": "homme_06",
+		"gender": "male",
+		"image": "res://FONT & sprite/personnage/homme_06.png",
+		"size": [
+			142,
+			196
+		]
+	},
+	{
+		"id": "homme_07",
+		"gender": "male",
+		"image": "res://FONT & sprite/personnage/homme_07.png",
+		"size": [
+			148,
+			196
+		]
+	},
+	{
+		"id": "homme_08",
+		"gender": "male",
+		"image": "res://FONT & sprite/personnage/homme_08.png",
+		"size": [
+			147,
+			196
+		]
+	},
+	{
+		"id": "homme_09",
+		"gender": "male",
+		"image": "res://FONT & sprite/personnage/homme_09.png",
+		"size": [
+			147,
+			196
+		]
+	},
+	{
+		"id": "homme_10",
+		"gender": "male",
+		"image": "res://FONT & sprite/personnage/homme_10.png",
+		"size": [
+			147,
+			196
+		]
+	}
+]

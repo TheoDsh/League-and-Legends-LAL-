@@ -39,7 +39,7 @@ theme_override_font_sizes/font_size = 38
 text = "NOT CONNECTED"
 horizontal_alignment = 1
 
-[node name="login" type="Button" parent="." unique_id=31588101]
+[node name="PLAY" type="Button" parent="." unique_id=31588101]
 layout_mode = 0
 offset_left = 256.0
 offset_top = 721.0
@@ -50,7 +50,7 @@ theme_override_font_sizes/font_size = 42
 theme_override_styles/normal = SubResource("StyleBoxTexture_15se8")
 text = "PLAY"
 
-[node name="login2" type="Button" parent="." unique_id=1286436726]
+[node name="TEAM" type="Button" parent="." unique_id=1286436726]
 layout_mode = 0
 offset_left = 256.0
 offset_top = 250.0
@@ -61,7 +61,7 @@ theme_override_font_sizes/font_size = 42
 theme_override_styles/normal = SubResource("StyleBoxTexture_15se8")
 text = "TEAM"
 
-[node name="login3" type="Button" parent="." unique_id=1650638999]
+[node name="RECRUIT" type="Button" parent="." unique_id=1650638999]
 layout_mode = 0
 offset_left = 257.0
 offset_top = 464.0

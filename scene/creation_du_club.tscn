@@ -1,0 +1,50 @@
+[gd_scene format=3 uid="uid://wbigb5m1sxwc"]
+
+[ext_resource type="Texture2D" uid="uid://ci2escvd6pt07" path="res://FONT & sprite/black_screen.jpeg" id="1_71lrk"]
+[ext_resource type="Texture2D" uid="uid://dw8rqkq7sjx6i" path="res://FONT & sprite/kenney_fantasy-ui-borders/PNG/Double/Panel/panel-009.png" id="2_f1i78"]
+[ext_resource type="Script" path="res://script/creation_du_club.gd" id="3_club"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_d5aer"]
+texture = ExtResource("2_f1i78")
+texture_margin_left = 16.0
+texture_margin_top = 16.0
+texture_margin_right = 16.0
+texture_margin_bottom = 16.0
+
+[node name="Control" type="Control" unique_id=1412383057]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+script = ExtResource("3_club")
+
+[node name="fond" type="TextureRect" parent="." unique_id=478560668]
+layout_mode = 0
+offset_left = -559.0
+offset_top = -302.0
+offset_right = 2011.0
+offset_bottom = 2224.0
+texture = ExtResource("1_71lrk")
+
+[node name="accept_club" type="Button" parent="." unique_id=1035202728]
+layout_mode = 0
+offset_left = 260.0
+offset_top = 963.0
+offset_right = 846.0
+offset_bottom = 1053.0
+theme_override_colors/font_color = Color(0, 0, 0, 1)
+theme_override_font_sizes/font_size = 42
+theme_override_styles/normal = SubResource("StyleBoxTexture_d5aer")
+text = "ACCEPT_DEFINITIF"
+
+[node name="nom_du_club" type="LineEdit" parent="." unique_id=870718511]
+layout_mode = 0
+offset_left = 187.0
+offset_top = 443.0
+offset_right = 907.0
+offset_bottom = 676.0
+theme_override_font_sizes/font_size = 48
+placeholder_text = "NOM_DU_CLUB"
+alignment = 1

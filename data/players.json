@@ -1,0 +1,1502 @@
+{
+	"player_001": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_05.png",
+		"pseudo": "AkiHawk41",
+		"role": "top",
+		"stats": {
+			"laning": "C",
+			"mechanics": "S",
+			"mental": "E",
+			"teamplay": "B",
+			"vision": "E"
+		}
+	},
+	"player_002": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_05.png",
+		"pseudo": "AkiSpark37",
+		"role": "top",
+		"stats": {
+			"laning": "S",
+			"mechanics": "A",
+			"mental": "B",
+			"teamplay": "D",
+			"vision": "C"
+		}
+	},
+	"player_003": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_06.png",
+		"pseudo": "VexTalon85",
+		"role": "top",
+		"stats": {
+			"laning": "A",
+			"mechanics": "B",
+			"mental": "A",
+			"teamplay": "C",
+			"vision": "S"
+		}
+	},
+	"player_004": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_02.png",
+		"pseudo": "ZeroMage23",
+		"role": "top",
+		"stats": {
+			"laning": "A",
+			"mechanics": "D",
+			"mental": "A",
+			"teamplay": "C",
+			"vision": "S"
+		}
+	},
+	"player_005": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_08.png",
+		"pseudo": "LunarZone25",
+		"role": "top",
+		"stats": {
+			"laning": "B",
+			"mechanics": "B",
+			"mental": "A",
+			"teamplay": "C",
+			"vision": "S"
+		}
+	},
+	"player_006": {
+		"club_id": "club_lolomdrkik_gmail_com",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_06.png",
+		"pseudo": "AlphaTank39",
+		"role": "top",
+		"stats": {
+			"laning": "D",
+			"mechanics": "D",
+			"mental": "E",
+			"teamplay": "B",
+			"vision": "S"
+		}
+	},
+	"player_007": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_07.png",
+		"pseudo": "VenomOracle30",
+		"role": "top",
+		"stats": {
+			"laning": "E",
+			"mechanics": "A",
+			"mental": "B",
+			"teamplay": "E",
+			"vision": "D"
+		}
+	},
+	"player_008": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_06.png",
+		"pseudo": "ShadowUnit58",
+		"role": "top",
+		"stats": {
+			"laning": "S",
+			"mechanics": "A",
+			"mental": "E",
+			"teamplay": "A",
+			"vision": "C"
+		}
+	},
+	"player_009": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_02.png",
+		"pseudo": "DriftQuest44",
+		"role": "top",
+		"stats": {
+			"laning": "D",
+			"mechanics": "E",
+			"mental": "D",
+			"teamplay": "B",
+			"vision": "D"
+		}
+	},
+	"player_010": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_05.png",
+		"pseudo": "RivenGuard27",
+		"role": "top",
+		"stats": {
+			"laning": "S",
+			"mechanics": "C",
+			"mental": "E",
+			"teamplay": "C",
+			"vision": "E"
+		}
+	},
+	"player_011": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_09.png",
+		"pseudo": "VexPrime75",
+		"role": "top",
+		"stats": {
+			"laning": "E",
+			"mechanics": "S",
+			"mental": "B",
+			"teamplay": "E",
+			"vision": "A"
+		}
+	},
+	"player_012": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_08.png",
+		"pseudo": "TitanWave59",
+		"role": "top",
+		"stats": {
+			"laning": "E",
+			"mechanics": "A",
+			"mental": "S",
+			"teamplay": "S",
+			"vision": "D"
+		}
+	},
+	"player_013": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_07.png",
+		"pseudo": "YoruZone44",
+		"role": "top",
+		"stats": {
+			"laning": "E",
+			"mechanics": "B",
+			"mental": "S",
+			"teamplay": "A",
+			"vision": "S"
+		}
+	},
+	"player_014": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_10.png",
+		"pseudo": "RogueX32",
+		"role": "top",
+		"stats": {
+			"laning": "D",
+			"mechanics": "S",
+			"mental": "A",
+			"teamplay": "A",
+			"vision": "A"
+		}
+	},
+	"player_015": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_02.png",
+		"pseudo": "ShadowZone77",
+		"role": "top",
+		"stats": {
+			"laning": "D",
+			"mechanics": "D",
+			"mental": "C",
+			"teamplay": "D",
+			"vision": "C"
+		}
+	},
+	"player_016": {
+		"club_id": "club_theodeshons_gmail_com",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_03.png",
+		"pseudo": "KaiRush40",
+		"role": "top",
+		"stats": {
+			"laning": "A",
+			"mechanics": "C",
+			"mental": "B",
+			"teamplay": "D",
+			"vision": "C"
+		}
+	},
+	"player_017": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_04.png",
+		"pseudo": "XenoViper80",
+		"role": "top",
+		"stats": {
+			"laning": "D",
+			"mechanics": "B",
+			"mental": "S",
+			"teamplay": "S",
+			"vision": "A"
+		}
+	},
+	"player_018": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_07.png",
+		"pseudo": "CrimsonQuest95",
+		"role": "top",
+		"stats": {
+			"laning": "E",
+			"mechanics": "E",
+			"mental": "D",
+			"teamplay": "B",
+			"vision": "E"
+		}
+	},
+	"player_019": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_10.png",
+		"pseudo": "AxelMage12",
+		"role": "top",
+		"stats": {
+			"laning": "C",
+			"mechanics": "A",
+			"mental": "D",
+			"teamplay": "S",
+			"vision": "E"
+		}
+	},
+	"player_020": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_02.png",
+		"pseudo": "AxelFang52",
+		"role": "top",
+		"stats": {
+			"laning": "A",
+			"mechanics": "B",
+			"mental": "B",
+			"teamplay": "B",
+			"vision": "S"
+		}
+	},
+	"player_021": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_05.png",
+		"pseudo": "RapidNova70",
+		"role": "jgl",
+		"stats": {
+			"laning": "A",
+			"mechanics": "S",
+			"mental": "S",
+			"teamplay": "C",
+			"vision": "C"
+		}
+	},
+	"player_022": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_09.png",
+		"pseudo": "FrostStrike62",
+		"role": "jgl",
+		"stats": {
+			"laning": "C",
+			"mechanics": "S",
+			"mental": "E",
+			"teamplay": "E",
+			"vision": "C"
+		}
+	},
+	"player_023": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_10.png",
+		"pseudo": "KaiCore34",
+		"role": "jgl",
+		"stats": {
+			"laning": "A",
+			"mechanics": "C",
+			"mental": "A",
+			"teamplay": "S",
+			"vision": "C"
+		}
+	},
+	"player_024": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_10.png",
+		"pseudo": "KaiWave66",
+		"role": "jgl",
+		"stats": {
+			"laning": "A",
+			"mechanics": "C",
+			"mental": "D",
+			"teamplay": "A",
+			"vision": "E"
+		}
+	},
+	"player_025": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_09.png",
+		"pseudo": "ShadowRider72",
+		"role": "jgl",
+		"stats": {
+			"laning": "B",
+			"mechanics": "S",
+			"mental": "C",
+			"teamplay": "A",
+			"vision": "A"
+		}
+	},
+	"player_026": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_06.png",
+		"pseudo": "HexGuard68",
+		"role": "jgl",
+		"stats": {
+			"laning": "S",
+			"mechanics": "C",
+			"mental": "C",
+			"teamplay": "A",
+			"vision": "C"
+		}
+	},
+	"player_027": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_10.png",
+		"pseudo": "ZeroRush84",
+		"role": "jgl",
+		"stats": {
+			"laning": "E",
+			"mechanics": "B",
+			"mental": "C",
+			"teamplay": "E",
+			"vision": "B"
+		}
+	},
+	"player_028": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_04.png",
+		"pseudo": "AstroX20",
+		"role": "jgl",
+		"stats": {
+			"laning": "D",
+			"mechanics": "E",
+			"mental": "S",
+			"teamplay": "C",
+			"vision": "D"
+		}
+	},
+	"player_029": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_02.png",
+		"pseudo": "SolarRunner15",
+		"role": "jgl",
+		"stats": {
+			"laning": "D",
+			"mechanics": "B",
+			"mental": "B",
+			"teamplay": "D",
+			"vision": "B"
+		}
+	},
+	"player_030": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_04.png",
+		"pseudo": "KaiGuard60",
+		"role": "jgl",
+		"stats": {
+			"laning": "C",
+			"mechanics": "A",
+			"mental": "E",
+			"teamplay": "E",
+			"vision": "E"
+		}
+	},
+	"player_031": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_03.png",
+		"pseudo": "UltraNova22",
+		"role": "jgl",
+		"stats": {
+			"laning": "D",
+			"mechanics": "A",
+			"mental": "C",
+			"teamplay": "D",
+			"vision": "D"
+		}
+	},
+	"player_032": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_06.png",
+		"pseudo": "AxelFlare57",
+		"role": "jgl",
+		"stats": {
+			"laning": "D",
+			"mechanics": "B",
+			"mental": "E",
+			"teamplay": "A",
+			"vision": "C"
+		}
+	},
+	"player_033": {
+		"club_id": "club_lolomdrkik_gmail_com",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_02.png",
+		"pseudo": "XenoDrake48",
+		"role": "jgl",
+		"stats": {
+			"laning": "E",
+			"mechanics": "S",
+			"mental": "E",
+			"teamplay": "B",
+			"vision": "A"
+		}
+	},
+	"player_034": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_05.png",
+		"pseudo": "BladeIce87",
+		"role": "jgl",
+		"stats": {
+			"laning": "C",
+			"mechanics": "B",
+			"mental": "D",
+			"teamplay": "S",
+			"vision": "D"
+		}
+	},
+	"player_035": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_08.png",
+		"pseudo": "AstroSpark91",
+		"role": "jgl",
+		"stats": {
+			"laning": "C",
+			"mechanics": "C",
+			"mental": "A",
+			"teamplay": "B",
+			"vision": "E"
+		}
+	},
+	"player_036": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_08.png",
+		"pseudo": "ShadowTalon80",
+		"role": "jgl",
+		"stats": {
+			"laning": "C",
+			"mechanics": "E",
+			"mental": "C",
+			"teamplay": "E",
+			"vision": "S"
+		}
+	},
+	"player_037": {
+		"club_id": "club_theodeshons_gmail_com",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_04.png",
+		"pseudo": "GhostReaper80",
+		"role": "jgl",
+		"stats": {
+			"laning": "E",
+			"mechanics": "E",
+			"mental": "S",
+			"teamplay": "A",
+			"vision": "S"
+		}
+	},
+	"player_038": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_05.png",
+		"pseudo": "FrostDash97",
+		"role": "jgl",
+		"stats": {
+			"laning": "A",
+			"mechanics": "C",
+			"mental": "A",
+			"teamplay": "C",
+			"vision": "A"
+		}
+	},
+	"player_039": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_01.png",
+		"pseudo": "ShadowKnight62",
+		"role": "jgl",
+		"stats": {
+			"laning": "A",
+			"mechanics": "E",
+			"mental": "E",
+			"teamplay": "A",
+			"vision": "S"
+		}
+	},
+	"player_040": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_01.png",
+		"pseudo": "ZetaKing58",
+		"role": "jgl",
+		"stats": {
+			"laning": "C",
+			"mechanics": "B",
+			"mental": "A",
+			"teamplay": "C",
+			"vision": "B"
+		}
+	},
+	"player_041": {
+		"club_id": "club_lolomdrkik_gmail_com",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_05.png",
+		"pseudo": "VexEdge13",
+		"role": "mid",
+		"stats": {
+			"laning": "E",
+			"mechanics": "C",
+			"mental": "D",
+			"teamplay": "C",
+			"vision": "C"
+		}
+	},
+	"player_042": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_10.png",
+		"pseudo": "WildX61",
+		"role": "mid",
+		"stats": {
+			"laning": "C",
+			"mechanics": "C",
+			"mental": "D",
+			"teamplay": "B",
+			"vision": "D"
+		}
+	},
+	"player_043": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_08.png",
+		"pseudo": "AlphaKing86",
+		"role": "mid",
+		"stats": {
+			"laning": "B",
+			"mechanics": "B",
+			"mental": "S",
+			"teamplay": "B",
+			"vision": "E"
+		}
+	},
+	"player_044": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_02.png",
+		"pseudo": "RapidCore42",
+		"role": "mid",
+		"stats": {
+			"laning": "A",
+			"mechanics": "C",
+			"mental": "B",
+			"teamplay": "S",
+			"vision": "C"
+		}
+	},
+	"player_045": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_07.png",
+		"pseudo": "JinxWave95",
+		"role": "mid",
+		"stats": {
+			"laning": "S",
+			"mechanics": "C",
+			"mental": "B",
+			"teamplay": "A",
+			"vision": "B"
+		}
+	},
+	"player_046": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_06.png",
+		"pseudo": "DriftQuest99",
+		"role": "mid",
+		"stats": {
+			"laning": "S",
+			"mechanics": "S",
+			"mental": "C",
+			"teamplay": "A",
+			"vision": "S"
+		}
+	},
+	"player_047": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_08.png",
+		"pseudo": "UltraNova48",
+		"role": "mid",
+		"stats": {
+			"laning": "E",
+			"mechanics": "E",
+			"mental": "E",
+			"teamplay": "E",
+			"vision": "E"
+		}
+	},
+	"player_048": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_07.png",
+		"pseudo": "SolarRunner93",
+		"role": "mid",
+		"stats": {
+			"laning": "E",
+			"mechanics": "S",
+			"mental": "A",
+			"teamplay": "B",
+			"vision": "S"
+		}
+	},
+	"player_049": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_06.png",
+		"pseudo": "ShadowTank20",
+		"role": "mid",
+		"stats": {
+			"laning": "E",
+			"mechanics": "C",
+			"mental": "A",
+			"teamplay": "D",
+			"vision": "B"
+		}
+	},
+	"player_050": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_01.png",
+		"pseudo": "AceArrow13",
+		"role": "mid",
+		"stats": {
+			"laning": "A",
+			"mechanics": "S",
+			"mental": "E",
+			"teamplay": "B",
+			"vision": "C"
+		}
+	},
+	"player_051": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_08.png",
+		"pseudo": "ZetaPhantom73",
+		"role": "mid",
+		"stats": {
+			"laning": "B",
+			"mechanics": "S",
+			"mental": "B",
+			"teamplay": "D",
+			"vision": "A"
+		}
+	},
+	"player_052": {
+		"club_id": "club_theodeshons_gmail_com",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_01.png",
+		"pseudo": "StormYard69",
+		"role": "mid",
+		"stats": {
+			"laning": "C",
+			"mechanics": "A",
+			"mental": "A",
+			"teamplay": "C",
+			"vision": "C"
+		}
+	},
+	"player_053": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_07.png",
+		"pseudo": "XenoYard81",
+		"role": "mid",
+		"stats": {
+			"laning": "E",
+			"mechanics": "C",
+			"mental": "S",
+			"teamplay": "E",
+			"vision": "E"
+		}
+	},
+	"player_054": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_05.png",
+		"pseudo": "MintTalon43",
+		"role": "mid",
+		"stats": {
+			"laning": "C",
+			"mechanics": "S",
+			"mental": "A",
+			"teamplay": "B",
+			"vision": "S"
+		}
+	},
+	"player_055": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_06.png",
+		"pseudo": "AxelIce40",
+		"role": "mid",
+		"stats": {
+			"laning": "B",
+			"mechanics": "C",
+			"mental": "E",
+			"teamplay": "B",
+			"vision": "C"
+		}
+	},
+	"player_056": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_04.png",
+		"pseudo": "VexPhantom98",
+		"role": "mid",
+		"stats": {
+			"laning": "E",
+			"mechanics": "A",
+			"mental": "E",
+			"teamplay": "C",
+			"vision": "B"
+		}
+	},
+	"player_057": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_08.png",
+		"pseudo": "JadeRush36",
+		"role": "mid",
+		"stats": {
+			"laning": "S",
+			"mechanics": "A",
+			"mental": "E",
+			"teamplay": "D",
+			"vision": "S"
+		}
+	},
+	"player_058": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_10.png",
+		"pseudo": "CrimsonPhantom63",
+		"role": "mid",
+		"stats": {
+			"laning": "S",
+			"mechanics": "C",
+			"mental": "D",
+			"teamplay": "S",
+			"vision": "D"
+		}
+	},
+	"player_059": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_07.png",
+		"pseudo": "NexusPulse59",
+		"role": "mid",
+		"stats": {
+			"laning": "C",
+			"mechanics": "A",
+			"mental": "S",
+			"teamplay": "E",
+			"vision": "D"
+		}
+	},
+	"player_060": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_01.png",
+		"pseudo": "IronReaper82",
+		"role": "mid",
+		"stats": {
+			"laning": "C",
+			"mechanics": "D",
+			"mental": "A",
+			"teamplay": "S",
+			"vision": "D"
+		}
+	},
+	"player_061": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_05.png",
+		"pseudo": "RoguePhantom51",
+		"role": "bot",
+		"stats": {
+			"laning": "C",
+			"mechanics": "S",
+			"mental": "A",
+			"teamplay": "S",
+			"vision": "B"
+		}
+	},
+	"player_062": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_02.png",
+		"pseudo": "RogueSpark70",
+		"role": "bot",
+		"stats": {
+			"laning": "D",
+			"mechanics": "A",
+			"mental": "E",
+			"teamplay": "C",
+			"vision": "B"
+		}
+	},
+	"player_063": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_01.png",
+		"pseudo": "AkiFlare35",
+		"role": "bot",
+		"stats": {
+			"laning": "S",
+			"mechanics": "C",
+			"mental": "B",
+			"teamplay": "B",
+			"vision": "B"
+		}
+	},
+	"player_064": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_04.png",
+		"pseudo": "LunarGuard57",
+		"role": "bot",
+		"stats": {
+			"laning": "C",
+			"mechanics": "E",
+			"mental": "A",
+			"teamplay": "C",
+			"vision": "B"
+		}
+	},
+	"player_065": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_08.png",
+		"pseudo": "RapidWizard58",
+		"role": "bot",
+		"stats": {
+			"laning": "B",
+			"mechanics": "E",
+			"mental": "B",
+			"teamplay": "C",
+			"vision": "B"
+		}
+	},
+	"player_066": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_10.png",
+		"pseudo": "RapidFang54",
+		"role": "bot",
+		"stats": {
+			"laning": "C",
+			"mechanics": "B",
+			"mental": "E",
+			"teamplay": "B",
+			"vision": "D"
+		}
+	},
+	"player_067": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_08.png",
+		"pseudo": "JadeWarden23",
+		"role": "bot",
+		"stats": {
+			"laning": "A",
+			"mechanics": "A",
+			"mental": "S",
+			"teamplay": "S",
+			"vision": "S"
+		}
+	},
+	"player_068": {
+		"club_id": "club_theodeshons_gmail_com",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_09.png",
+		"pseudo": "UltraZone71",
+		"role": "bot",
+		"stats": {
+			"laning": "S",
+			"mechanics": "A",
+			"mental": "A",
+			"teamplay": "C",
+			"vision": "B"
+		}
+	},
+	"player_069": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_08.png",
+		"pseudo": "KuroFlare69",
+		"role": "bot",
+		"stats": {
+			"laning": "S",
+			"mechanics": "S",
+			"mental": "S",
+			"teamplay": "A",
+			"vision": "E"
+		}
+	},
+	"player_070": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_07.png",
+		"pseudo": "ZeroNinja43",
+		"role": "bot",
+		"stats": {
+			"laning": "A",
+			"mechanics": "S",
+			"mental": "B",
+			"teamplay": "A",
+			"vision": "A"
+		}
+	},
+	"player_071": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_09.png",
+		"pseudo": "NeoFlare62",
+		"role": "bot",
+		"stats": {
+			"laning": "D",
+			"mechanics": "B",
+			"mental": "B",
+			"teamplay": "S",
+			"vision": "D"
+		}
+	},
+	"player_072": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_08.png",
+		"pseudo": "NeoIce38",
+		"role": "bot",
+		"stats": {
+			"laning": "A",
+			"mechanics": "D",
+			"mental": "A",
+			"teamplay": "C",
+			"vision": "E"
+		}
+	},
+	"player_073": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_07.png",
+		"pseudo": "JinxDrake52",
+		"role": "bot",
+		"stats": {
+			"laning": "A",
+			"mechanics": "B",
+			"mental": "E",
+			"teamplay": "A",
+			"vision": "C"
+		}
+	},
+	"player_074": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_10.png",
+		"pseudo": "AceLegend25",
+		"role": "bot",
+		"stats": {
+			"laning": "E",
+			"mechanics": "B",
+			"mental": "S",
+			"teamplay": "B",
+			"vision": "B"
+		}
+	},
+	"player_075": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_05.png",
+		"pseudo": "SkyCore47",
+		"role": "bot",
+		"stats": {
+			"laning": "C",
+			"mechanics": "D",
+			"mental": "A",
+			"teamplay": "B",
+			"vision": "C"
+		}
+	},
+	"player_076": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_10.png",
+		"pseudo": "BladeFang16",
+		"role": "bot",
+		"stats": {
+			"laning": "E",
+			"mechanics": "C",
+			"mental": "S",
+			"teamplay": "D",
+			"vision": "B"
+		}
+	},
+	"player_077": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_07.png",
+		"pseudo": "MintViper66",
+		"role": "bot",
+		"stats": {
+			"laning": "D",
+			"mechanics": "D",
+			"mental": "A",
+			"teamplay": "C",
+			"vision": "S"
+		}
+	},
+	"player_078": {
+		"club_id": "club_lolomdrkik_gmail_com",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_01.png",
+		"pseudo": "IronWarden19",
+		"role": "bot",
+		"stats": {
+			"laning": "D",
+			"mechanics": "A",
+			"mental": "A",
+			"teamplay": "S",
+			"vision": "E"
+		}
+	},
+	"player_079": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_05.png",
+		"pseudo": "QuestRider87",
+		"role": "bot",
+		"stats": {
+			"laning": "A",
+			"mechanics": "D",
+			"mental": "A",
+			"teamplay": "D",
+			"vision": "A"
+		}
+	},
+	"player_080": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_02.png",
+		"pseudo": "CrimsonNova89",
+		"role": "bot",
+		"stats": {
+			"laning": "D",
+			"mechanics": "D",
+			"mental": "E",
+			"teamplay": "E",
+			"vision": "D"
+		}
+	},
+	"player_081": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_02.png",
+		"pseudo": "KaiKnight80",
+		"role": "sup",
+		"stats": {
+			"laning": "S",
+			"mechanics": "S",
+			"mental": "C",
+			"teamplay": "B",
+			"vision": "A"
+		}
+	},
+	"player_082": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_06.png",
+		"pseudo": "AlphaEdge46",
+		"role": "sup",
+		"stats": {
+			"laning": "E",
+			"mechanics": "A",
+			"mental": "B",
+			"teamplay": "B",
+			"vision": "D"
+		}
+	},
+	"player_083": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_04.png",
+		"pseudo": "ZenZone38",
+		"role": "sup",
+		"stats": {
+			"laning": "D",
+			"mechanics": "A",
+			"mental": "A",
+			"teamplay": "D",
+			"vision": "A"
+		}
+	},
+	"player_084": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_09.png",
+		"pseudo": "TitanNova46",
+		"role": "sup",
+		"stats": {
+			"laning": "B",
+			"mechanics": "C",
+			"mental": "A",
+			"teamplay": "D",
+			"vision": "B"
+		}
+	},
+	"player_085": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_02.png",
+		"pseudo": "KuroSpark86",
+		"role": "sup",
+		"stats": {
+			"laning": "C",
+			"mechanics": "S",
+			"mental": "E",
+			"teamplay": "B",
+			"vision": "A"
+		}
+	},
+	"player_086": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_01.png",
+		"pseudo": "YoruNova85",
+		"role": "sup",
+		"stats": {
+			"laning": "S",
+			"mechanics": "S",
+			"mental": "C",
+			"teamplay": "S",
+			"vision": "E"
+		}
+	},
+	"player_087": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_08.png",
+		"pseudo": "BladeKnight84",
+		"role": "sup",
+		"stats": {
+			"laning": "C",
+			"mechanics": "D",
+			"mental": "E",
+			"teamplay": "C",
+			"vision": "B"
+		}
+	},
+	"player_088": {
+		"club_id": "club_theodeshons_gmail_com",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_04.png",
+		"pseudo": "DriftTank23",
+		"role": "sup",
+		"stats": {
+			"laning": "D",
+			"mechanics": "S",
+			"mental": "B",
+			"teamplay": "E",
+			"vision": "S"
+		}
+	},
+	"player_089": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_06.png",
+		"pseudo": "LunarSpark50",
+		"role": "sup",
+		"stats": {
+			"laning": "A",
+			"mechanics": "B",
+			"mental": "D",
+			"teamplay": "C",
+			"vision": "A"
+		}
+	},
+	"player_090": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_10.png",
+		"pseudo": "JadeRush34",
+		"role": "sup",
+		"stats": {
+			"laning": "D",
+			"mechanics": "A",
+			"mental": "C",
+			"teamplay": "D",
+			"vision": "B"
+		}
+	},
+	"player_091": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_09.png",
+		"pseudo": "QuestPrime46",
+		"role": "sup",
+		"stats": {
+			"laning": "C",
+			"mechanics": "D",
+			"mental": "C",
+			"teamplay": "C",
+			"vision": "D"
+		}
+	},
+	"player_092": {
+		"club_id": "club_lolomdrkik_gmail_com",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_08.png",
+		"pseudo": "QuestBlade80",
+		"role": "sup",
+		"stats": {
+			"laning": "S",
+			"mechanics": "B",
+			"mental": "B",
+			"teamplay": "A",
+			"vision": "D"
+		}
+	},
+	"player_093": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_06.png",
+		"pseudo": "NexusIce75",
+		"role": "sup",
+		"stats": {
+			"laning": "C",
+			"mechanics": "S",
+			"mental": "A",
+			"teamplay": "S",
+			"vision": "B"
+		}
+	},
+	"player_094": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_10.png",
+		"pseudo": "HexCore86",
+		"role": "sup",
+		"stats": {
+			"laning": "A",
+			"mechanics": "E",
+			"mental": "A",
+			"teamplay": "C",
+			"vision": "B"
+		}
+	},
+	"player_095": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_09.png",
+		"pseudo": "AeroIce48",
+		"role": "sup",
+		"stats": {
+			"laning": "B",
+			"mechanics": "D",
+			"mental": "D",
+			"teamplay": "D",
+			"vision": "E"
+		}
+	},
+	"player_096": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_09.png",
+		"pseudo": "QuestZone58",
+		"role": "sup",
+		"stats": {
+			"laning": "S",
+			"mechanics": "S",
+			"mental": "D",
+			"teamplay": "B",
+			"vision": "B"
+		}
+	},
+	"player_097": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_08.png",
+		"pseudo": "AlphaLegend70",
+		"role": "sup",
+		"stats": {
+			"laning": "A",
+			"mechanics": "S",
+			"mental": "D",
+			"teamplay": "E",
+			"vision": "A"
+		}
+	},
+	"player_098": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_10.png",
+		"pseudo": "SkyTalon22",
+		"role": "sup",
+		"stats": {
+			"laning": "E",
+			"mechanics": "E",
+			"mental": "C",
+			"teamplay": "D",
+			"vision": "E"
+		}
+	},
+	"player_099": {
+		"club_id": "",
+		"gender": "male",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/homme_08.png",
+		"pseudo": "MintGuard53",
+		"role": "sup",
+		"stats": {
+			"laning": "C",
+			"mechanics": "S",
+			"mental": "C",
+			"teamplay": "D",
+			"vision": "B"
+		}
+	},
+	"player_100": {
+		"club_id": "",
+		"gender": "female",
+		"level": 1.0,
+		"portrait": "res://FONT & sprite/personnage/femme_03.png",
+		"pseudo": "PrimeFang89",
+		"role": "sup",
+		"stats": {
+			"laning": "C",
+			"mechanics": "A",
+			"mental": "D",
+			"teamplay": "D",
+			"vision": "D"
+		}
+	}
+}

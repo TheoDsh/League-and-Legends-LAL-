@@ -1,2 +1,12 @@
 {
+	"lolomdrkik@gmail.com": {
+		"club_id": "club_lolomdrkik_gmail_com",
+		"password_hash": "ac5b469803119418f81516b69ab2ad598e6a7a01b133d9565b20840528107642",
+		"salt": "1779275583.913_872747135"
+	},
+	"theodeshons@gmail.com": {
+		"club_id": "club_theodeshons_gmail_com",
+		"password_hash": "417d9e2b96ec4dcd755b2b4efc9b83935f0438be8d6c6e13f09f5fca182a163e",
+		"salt": "1779271236.4426_10723124"
+	}
 }
