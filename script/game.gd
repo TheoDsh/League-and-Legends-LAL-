@@ -5,10 +5,13 @@ const MATCH_SIM_SCRIPT := "res://script/match_sim.gd"
 const CHAMPIONS_FILE := "res://data/champions.json"
 const ITEMS_FILE := "res://data/items.json"
 const MENU_SCENE := "res://scene/menu.tscn"
+const GAME2D_SCENE := "res://scene/game2D.tscn"
 const ROLES: Array[String] = ["top", "jgl", "mid", "bot", "sup"]
 
 @onready var player_club_label: Label = $player_club_label
 @onready var opponent_club_label: Label = $opponent_club_label
+@onready var player_objectives_label: Label = $player_objectives_label
+@onready var ai_objectives_label: Label = $ai_objectives_label
 @onready var match_time_label: Label = $match_panel/match_time_label
 @onready var player_total_gold_label: Label = $match_panel/player_total_gold_label
 @onready var ai_total_gold_label: Label = $match_panel/ai_total_gold_label
@@ -16,6 +19,7 @@ const ROLES: Array[String] = ["top", "jgl", "mid", "bot", "sup"]
 @onready var event_log_label: Label = $match_panel/event_log_label
 @onready var advantage_graph = $match_panel/advantage_graph
 @onready var back_button: Button = $back_button
+@onready var map_button: Button = $map_button
 
 var champions: Dictionary = {}
 var items: Dictionary = {}
@@ -31,6 +35,7 @@ func _ready() -> void:
 	champions = _read_json_file(CHAMPIONS_FILE)
 	items = _read_json_file(ITEMS_FILE)
 	back_button.pressed.connect(_on_back_pressed)
+	map_button.pressed.connect(_on_map_pressed)
 	_bind_speed_buttons()
 	_bind_match_rows()
 	_apply_static_styles()
@@ -39,19 +44,27 @@ func _ready() -> void:
 func _process(delta: float) -> void:
 	if not match_running or match_sim == null:
 		return
-	match_sim.step(delta * match_speed)
-	_refresh_match_ui()
+	var match_delta: float = delta * match_speed
+	match_sim.step(match_delta)
+	_refresh_match_ui(match_delta)
 
 func _start_from_draft_data() -> void:
 	var data: Dictionary = get_tree().get_meta("current_match_data", {})
 	var player_club_id := str(data.get("player_club_id", ""))
 	var opponent_ai_club_id := str(data.get("opponent_ai_club_id", ""))
-	var player_picks: Array[String] = _string_array(data.get("player_picks", []))
-	var ai_picks: Array[String] = _string_array(data.get("ai_picks", []))
-
 	var clubs := GameData.load_clubs()
 	player_club_label.text = _club_name(clubs, player_club_id, "YOUR CLUB")
 	opponent_club_label.text = _club_name(clubs, opponent_ai_club_id, "AI CLUB")
+
+	if get_tree().has_meta("current_match_sim"):
+		match_sim = get_tree().get_meta("current_match_sim")
+		match_running = true
+		_set_match_speed(float(get_tree().get_meta("current_match_speed", 1.0)))
+		_refresh_match_ui(0.0)
+		return
+
+	var player_picks: Array[String] = _string_array(data.get("player_picks", []))
+	var ai_picks: Array[String] = _string_array(data.get("ai_picks", []))
 
 	var player_players := GameData.get_players_for_club(player_club_id)
 	var ai_players := GameData.get_players_for_club(opponent_ai_club_id)
@@ -61,13 +74,14 @@ func _start_from_draft_data() -> void:
 		return
 	match_sim = match_sim_script.new()
 	match_sim.setup(player_players, ai_players, player_picks, ai_picks, champions, items)
+	get_tree().set_meta("current_match_sim", match_sim)
 	match_running = true
 	_set_match_speed(1.0)
-	_refresh_match_ui()
+	_refresh_match_ui(0.0)
 
 func _bind_speed_buttons() -> void:
 	for speed in [1, 2, 3, 5]:
-		var button := get_node("match_panel/speed_tabs/speed_%d" % speed) as Button
+		var button: Button = get_node("match_panel/speed_tabs/speed_%d" % speed) as Button
 		button.pressed.connect(_on_match_speed_pressed.bind(float(speed)))
 		match_speed_buttons[float(speed)] = button
 
@@ -110,7 +124,7 @@ func _set_match_speed(speed: float) -> void:
 		button.add_theme_stylebox_override("pressed", _make_panel_style(Color(0.18, 0.22, 0.14, 1.0)))
 		button.add_theme_stylebox_override("disabled", _make_panel_style(Color(0.12, 0.15, 0.1, 0.95)))
 
-func _refresh_match_ui() -> void:
+func _refresh_match_ui(visual_delta: float = 0.0) -> void:
 	var snapshot: Dictionary = match_sim.get_snapshot()
 	var game_time := float(snapshot.get("time", 0.0))
 	var minutes := int(game_time) / 60
@@ -140,7 +154,28 @@ func _refresh_match_ui() -> void:
 		label.add_theme_color_override("font_color", Color(0.1, 0.9, 0.28) if lane_diff >= 0 else Color(1.0, 0.18, 0.18))
 
 	var events: Array = snapshot.get("events", [])
-	event_log_label.text = "\n".join(events)
+	event_log_label.text = "\n".join(_display_events(events))
+	_refresh_objective_labels(snapshot)
+
+func _refresh_objective_labels(snapshot: Dictionary) -> void:
+	var drakes: Dictionary = snapshot.get("drakes", {})
+	var nashors: Dictionary = snapshot.get("nashors", {})
+	player_objectives_label.text = "DRAKE %d   NASH %d" % [int(drakes.get("player", 0)), int(nashors.get("player", 0))]
+	ai_objectives_label.text = "DRAKE %d   NASH %d" % [int(drakes.get("ai", 0)), int(nashors.get("ai", 0))]
+
+func _display_events(events: Array) -> Array[String]:
+	var result: Array[String] = []
+	for event in events:
+		var text: String = str(event)
+		if text.begins_with("KILL|"):
+			var parts: PackedStringArray = text.split("|")
+			if parts.size() >= 5:
+				result.append("%s killed %s" % [parts[2], parts[4]])
+			else:
+				result.append(text)
+		else:
+			result.append(text)
+	return result
 
 func _refresh_match_row(side: String, role: String, state: Dictionary) -> void:
 	var row: Dictionary = match_rows[side][role]
@@ -219,7 +254,7 @@ func _apply_static_styles() -> void:
 			row_panel.add_theme_stylebox_override("panel", _make_panel_style(Color(0.04, 0.045, 0.06, 0.88)))
 
 func _make_panel_style(color: Color) -> StyleBoxFlat:
-	var style := StyleBoxFlat.new()
+	var style: StyleBoxFlat = StyleBoxFlat.new()
 	style.bg_color = color
 	style.border_color = Color(0.85, 0.78, 0.35, 0.9)
 	style.border_width_left = 2
@@ -238,3 +273,9 @@ func _make_panel_style(color: Color) -> StyleBoxFlat:
 
 func _on_back_pressed() -> void:
 	get_tree().change_scene_to_file(MENU_SCENE)
+
+func _on_map_pressed() -> void:
+	if match_sim != null:
+		get_tree().set_meta("current_match_sim", match_sim)
+	get_tree().set_meta("current_match_speed", match_speed)
+	get_tree().change_scene_to_file(GAME2D_SCENE)

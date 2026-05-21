@@ -31,6 +31,16 @@ offset_bottom = 180.0
 theme_override_font_sizes/font_size = 34
 text = "YOUR CLUB"
 
+[node name="player_objectives_label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 60.0
+offset_top = 176.0
+offset_right = 420.0
+offset_bottom = 215.0
+theme_override_font_sizes/font_size = 20
+text = "DRAKE 0  NASH 0"
+horizontal_alignment = 0
+
 [node name="vs_label" type="Label" parent="."]
 layout_mode = 0
 offset_left = 465.0
@@ -51,6 +61,16 @@ theme_override_font_sizes/font_size = 34
 text = "AI CLUB"
 horizontal_alignment = 2
 
+[node name="ai_objectives_label" type="Label" parent="."]
+layout_mode = 0
+offset_left = 620.0
+offset_top = 176.0
+offset_right = 1020.0
+offset_bottom = 215.0
+theme_override_font_sizes/font_size = 20
+text = "DRAKE 0  NASH 0"
+horizontal_alignment = 2
+
 [node name="back_button" type="Button" parent="."]
 layout_mode = 0
 offset_left = 36.0
@@ -59,6 +79,15 @@ offset_right = 236.0
 offset_bottom = 1840.0
 theme_override_font_sizes/font_size = 28
 text = "MENU"
+
+[node name="map_button" type="Button" parent="."]
+layout_mode = 0
+offset_left = 844.0
+offset_top = 1760.0
+offset_right = 1044.0
+offset_bottom = 1840.0
+theme_override_font_sizes/font_size = 28
+text = "2D MAP"
 
 [node name="match_panel" type="Panel" parent="."]
 layout_mode = 0

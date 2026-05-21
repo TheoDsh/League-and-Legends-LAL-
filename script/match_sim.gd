@@ -40,6 +40,7 @@ var team_bonus := {
 var teams := {"player": {}, "ai": {}}
 var towers: Dictionary = {}
 var drakes := {"player": 0, "ai": 0}
+var nashors := {"player": 0, "ai": 0}
 var event_log: Array[String] = []
 
 var _wave_timer := 0.0
@@ -135,6 +136,7 @@ func get_snapshot() -> Dictionary:
 		"teams": teams,
 		"towers": towers,
 		"drakes": drakes,
+		"nashors": nashors,
 		"events": event_log.slice(max(0, event_log.size() - 5), event_log.size()),
 	}
 
@@ -438,7 +440,7 @@ func _resolve_fight_deaths(side: String, lost: bool) -> void:
 
 func _resolve_drake() -> void:
 	var side: String = _resolve_objective_fight("drake")
-	drakes[side] += 1
+	drakes[side] = int(drakes.get(side, 0)) + 1
 	var bonus_keys: Array[String] = ["damage", "armor", "magic_resist", "speed", "sustain"]
 	var bonus_key: String = bonus_keys[randi() % bonus_keys.size()]
 	team_bonus[side][bonus_key] += 0.03
@@ -449,6 +451,7 @@ func _resolve_nashor() -> void:
 	if game_time < NASHOR_SPAWN:
 		return
 	var side: String = _resolve_objective_fight("nashor")
+	nashors[side] = int(nashors.get(side, 0)) + 1
 	team_bonus[side]["baron_until"] = game_time + 180.0
 	_add_team_xp(side, NASHOR_TEAM_XP)
 	event_log.append("%s secured Nashor" % side.to_upper())
@@ -591,6 +594,9 @@ func _score_kill(killer_side: String, killer_role: String, victim_side: String, 
 		killer_role = "bot"
 	assister_roles = _valid_assists(killer_side, killer_role, assister_roles)
 	teams[killer_side][killer_role]["kills"] = int(teams[killer_side][killer_role].get("kills", 0)) + 1
+	var killer_name: String = str(teams[killer_side][killer_role].get("pseudo", killer_role.to_upper()))
+	var victim_name: String = str(teams[victim_side][victim_role].get("pseudo", victim_role.to_upper()))
+	event_log.append("KILL|%s|%s|%s|%s" % [killer_side, killer_name, victim_side, victim_name])
 	_add_gold(killer_side, killer_role, 300)
 	_add_xp(killer_side, killer_role, KILL_XP)
 	for role in assister_roles:
